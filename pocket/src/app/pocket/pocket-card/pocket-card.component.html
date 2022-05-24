@@ -1,0 +1,11 @@
+<div  class="content">
+    <a [href]="metadata?.url" target="_blank"><img [src]="metadata?.image" alt=""></a>
+    <h3>{{ metadata?.title }}</h3>
+    <p>{{ metadata?.description }}</p>  
+    <p>{{ metadata?.id}}</p>  
+    <div> 
+    <button (click)="delete(metadata.id)" >DELETE</button>
+    </div>
+    
+    <!-- <a href="#" click="delete(metadata.id)" style="border: 2px solid black;">delete</a> -->
+</div>

@@ -1,0 +1,4 @@
+<div id="list-container">
+    <app-pocket-card [metadata]="metadata.value" (output)="sendData($event)" *ngFor="let metadata of pockets | keyvalue"></app-pocket-card> 
+</div>
+<!-- metadata="metadata.value" *ngFor="let metadata of pocket | keyvalue" -->

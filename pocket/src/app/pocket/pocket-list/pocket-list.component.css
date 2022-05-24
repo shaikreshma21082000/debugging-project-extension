@@ -1,0 +1,11 @@
+
+#list-container {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    /* background-color: whitesmoke; */
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+}

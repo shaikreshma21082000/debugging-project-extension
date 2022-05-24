@@ -1,0 +1,11 @@
+<header>
+  <h1>Pocket</h1>
+  <img id="logo" src="assets/pocket.png" alt="Pocket Icon" srcset="">
+  <h2>Lists</h2>
+</header>
+
+<div id="target-input">
+  <input type="text" [(ngModel)]="targetUrl"  placeholder="Save a URL http://..."> <button (click)="add()">+</button>
+</div>
+
+<app-pocket-list [pockets]="pocket" (message)="refresh($event)"></app-pocket-list>

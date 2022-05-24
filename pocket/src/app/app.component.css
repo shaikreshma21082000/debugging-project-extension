@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+}
+
+header h2 {
+    font-weight: 300;
+}
+
+#target-input{
+    margin:auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+#target-input > input {
+    width: 70%;
+    line-height: 25px;
+}
+
+#target-input > button {
+    line-height: 25px;
+}

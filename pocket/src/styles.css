@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+body {
+    margin: 0px;
+    color: #070707;
+    font-family: 'Product Sans', sans-serif;
+    /* background-image: url('https://66.media.tumblr.com/77ba53b19c49c8a465031d71ffce68cb/tumblr_inline_p7gt0lzeaO1rbx4br_500.gif'); */
+}
